@@ -1,0 +1,24 @@
+{
+  "username": "postman",
+  "password": "password",
+  "endpoint": "/users",
+  "languages": [
+    "Java",
+    "Python",
+    "C#"
+  ],
+  "technologies": [
+    "AI",
+    "ML",
+    "Data Science"
+  ],
+  "contact": [
+    "Name : Vrushali Yadav",
+    "Email : 2311vrushali@gmail.com",
+    "City : Toronto",
+    "State: Ontario",
+    "Country : Canada"
+  ],
+  "content-type": "application/json",
+  "builder pattern test endpoint": "/posts"
+}
