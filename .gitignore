@@ -6,6 +6,9 @@ target/
 ## Test reports
 reports/
 
+## Folder structure file
+directory-tree.txt
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
