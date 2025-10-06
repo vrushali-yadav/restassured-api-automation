@@ -21,6 +21,7 @@ API automation testing framework built using REST Assured, Java, TestNG, and Mav
 - Easy configuration management
 - CI/CD integration ready
 
+
 ## Technologies Used
 
 | Technology | Purpose                 |
@@ -31,3 +32,4 @@ API automation testing framework built using REST Assured, Java, TestNG, and Mav
 | Maven | Build Tool              |
 | Jackson/Gson | JSON Processing for POJO |
 | ExtentReports | Test Reporting |
+
