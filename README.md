@@ -18,8 +18,6 @@ API automation testing framework built using REST Assured, Java, TestNG, and Mav
 - JSON schema validation
 - Data-driven testing support
 - Detailed test reporting - ExtentReports
-- Easy configuration management
-- CI/CD integration ready
 
 
 ## Project Structure
