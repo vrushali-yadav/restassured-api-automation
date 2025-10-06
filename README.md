@@ -6,3 +6,18 @@
 ![Maven](https://img.shields.io/badge/Maven-blue.svg)
 
 API automation testing framework built using REST Assured, Java, TestNG, and Maven. This framework provides a structured approach to automate RESTful API testing with extensive reporting and easy maintainability.
+
+
+## Features
+
+- REST Assured for API testing
+- TestNG for test management and execution
+- Maven for build management
+- Support for various HTTP methods 
+- Request and Response specifications
+- JSON schema validation
+- Data-driven testing support
+- Detailed test reporting - ExtentReports
+- Easy configuration management
+- CI/CD integration ready
+
