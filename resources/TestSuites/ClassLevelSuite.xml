@@ -5,9 +5,6 @@
     <test name="Automation Test Scripts for GetUsersTest">
         <classes>
             <class name="userManagement.GetUsersTest"/>
-<!--                <methods>-->
-<!--                    <include name="testMethod"/>-->
-<!--                </methods>-->
         </classes>
     </test>
     <test name="Automation Test Scripts for Postman Echo API">

@@ -14,7 +14,7 @@ import java.io.IOException;
 public class BaseTest {
 
 
-    @BeforeSuite
+    @BeforeSuite(alwaysRun = true)
     public void config() throws IOException {
 
         // Create a path where we will create a folder to store HTML reports

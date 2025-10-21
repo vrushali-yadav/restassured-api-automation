@@ -37,6 +37,7 @@ public class GetUsersTest extends BaseTest {
     public void getUserData() {
         // Send a GET request and validate status code
         given()
+                .header("x-api-key", "reqres-free-v1")
                 .when().get("https://reqres.in/api/users?page=2")
                 .then()
                 .assertThat()
@@ -50,6 +51,7 @@ public class GetUsersTest extends BaseTest {
 
         // Send GET request with single query parameter and save response in a variable
         Response response = given()
+                .header("x-api-key", "reqres-free-v1")
                 .queryParam("page", 2)
                 .when()
                 .get("/users");
@@ -167,6 +169,7 @@ public class GetUsersTest extends BaseTest {
     @Test
     public void testGetUsersDataWithHeader() {
         given()
+                .header("x-api-key", "reqres-free-v1")
                 .header("Content-Type", "application/json")
                 .when()
                 .get("https://reqres.in/api/users?page=2")
@@ -209,6 +212,7 @@ public class GetUsersTest extends BaseTest {
     @Test
     public void testValidateResponseHeaders() {
         given()
+                .header("x-api-key", "reqres-free-v1")
                 .when()
                 .get("https://reqres.in/api/users?page=2")
                 .then()
@@ -273,6 +277,7 @@ public class GetUsersTest extends BaseTest {
                 .build();
 
         given()
+                .header("x-api-key", "reqres-free-v1")
                 .cookie(myCookie)
                 .when()
                 .get("https://reqres.in/api/users?page=2")
